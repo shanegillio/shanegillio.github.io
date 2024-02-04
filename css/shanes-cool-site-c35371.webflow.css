@@ -1028,6 +1028,8 @@ p {
 .text-block-2 {
   color: red;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: Montserrat, sans-serif;
 }
 
@@ -1087,7 +1089,7 @@ p {
 }
 
 .html-embed {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 991px) {
@@ -1196,7 +1198,7 @@ p {
     max-width: 90%;
   }
 
-  .body {
+  .body, .html-embed-2 {
     max-width: 100%;
   }
 }
